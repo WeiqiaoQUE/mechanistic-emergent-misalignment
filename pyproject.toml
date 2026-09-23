@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phase-transition-core"
+version = "0.1.0"
+description = "Core geometry, subspace, and causal-intervention analyses"
+requires-python = ">=3.10"
+dependencies = [
+  "accelerate>=1.12",
+  "numpy>=1.26",
+  "pandas>=2.0",
+  "peft>=0.14",
+  "safetensors>=0.4",
+  "scipy>=1.11",
+  "torch>=2.4",
+  "transformers>=4.51",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

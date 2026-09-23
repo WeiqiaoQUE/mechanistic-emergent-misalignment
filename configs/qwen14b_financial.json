@@ -1,0 +1,126 @@
+{
+  "model_name_or_path": "Qwen/Qwen2.5-14B-Instruct",
+  "task_tag": "financial",
+  "layers_to_transform": [
+    21
+  ],
+  "lora_r": 1,
+  "lora_alpha": 64,
+  "lora_target_modules": [
+    "down_proj"
+  ],
+  "max_seq_length": 2048,
+  "pivot_geometry": {
+    "experiment_name": "qwen14b_r1_l21_financial",
+    "pivot_token_sets_path": "data/qwen14b_financial/pivot_token_sets.json",
+    "em_results_path": "data/qwen14b_financial/judged_em_results.json",
+    "checkpoints_dir": "artifacts/qwen14b_financial",
+    "output_dir": "outputs/qwen14b_financial/geometry",
+    "start_ckpt": 225,
+    "end_ckpt": 750,
+    "compute_group_level": true,
+    "compute_token_level": false,
+    "run_permutation": false,
+    "run_sanity_check": true
+  },
+  "f1_subspace": {
+    "steps": [
+      225,
+      250,
+      300,
+      350,
+      400,
+      500,
+      600,
+      700,
+      750
+    ],
+    "n_train": 256,
+    "rank_list": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "random_baseline_repeats": 1000,
+    "harmful_dataset_path": "DATA_NOT_RELEASED/risky_financial_advice.jsonl",
+    "safe_dataset_path": "DATA_NOT_RELEASED/safe_financial_advice.jsonl",
+    "harmful_checkpoint_root": "artifacts/qwen14b_financial",
+    "safe_checkpoint_root": "artifacts/qwen14b_safe_financial",
+    "eval_token_metadata_path": "outputs/qwen14b_financial/geometry/per_token_curvature/pivot_token_curvature_raw.jsonl",
+    "pivot_token_sets_path": "data/qwen14b_financial/pivot_token_sets.json",
+    "em_results_path": "data/qwen14b_financial/judged_em_results.json",
+    "eval_checkpoint": 750,
+    "eval_run_tag": "225-750",
+    "output_dir_fullseq": "outputs/qwen14b_financial/subspace/key_steps_fullseq",
+    "min_grad_norm": 1E-12,
+    "smoke_n_train": 4,
+    "smoke_max_eval_tokens_per_label": 2,
+    "stat_tests": {
+      "task_prefix": "financial",
+      "loss_mask_mode": "full_sequence_padding_only",
+      "cache_schema_version": 2,
+      "lora_dims": {
+        "A": 13824,
+        "B": 5120,
+        "concat": 18944
+      },
+      "enabled": true,
+      "output_subdir": "stat_tests",
+      "blocks": [
+        "concat",
+        "A_block",
+        "B_block"
+      ],
+      "ranks": [
+        4,
+        8
+      ],
+      "bootstrap_B": 2000,
+      "permutation_B": 5000,
+      "seed": 12345,
+      "ci_quantiles": [
+        0.025,
+        0.975
+      ],
+      "primary_rank": 4,
+      "primary_blocks": [
+        "concat",
+        "B_block"
+      ],
+      "p_adjust_method": "BH",
+      "small_cluster_threshold": 30,
+      "use_gpu": true,
+      "device": "cuda",
+      "basis_method": "gram_eigh",
+      "max_basis_rank": 8,
+      "resume_from_tables": true
+    }
+  },
+  "causal_ablation": {
+    "start_ckpt": 225,
+    "end_ckpt": 325,
+    "rank": 4,
+    "random_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "enable_start_basis_validation": false,
+    "blocks": [
+      "concat"
+    ],
+    "conditions": [
+      "C0_full",
+      "C5_harm_boost",
+      "C6_rand_boost_nm"
+    ],
+    "harm_boost_scales": [
+      1.5
+    ],
+    "output_subdir": "causal_ablation_reduced"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "task": "financial",
+  "experiment": "gradient_subspace_main_text",
+  "checkpoints": [
+    225,
+    250,
+    300,
+    350,
+    400,
+    500,
+    600,
+    700,
+    750
+  ],
+  "parameter_blocks": [
+    "concat",
+    "A_block",
+    "B_block"
+  ],
+  "descriptive_ranks": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "statistical_ranks": [
+    4,
+    8
+  ],
+  "primary_rank": 4,
+  "primary_blocks": [
+    "concat",
+    "B_block"
+  ],
+  "train_samples_per_condition": 256,
+  "loss_mask_mode": "full_sequence_padding_only",
+  "bootstrap_resamples": 2000,
+  "permutation_resamples": 5000,
+  "random_seed": 12345,
+  "multiple_testing_correction": "Benjamini-Hochberg",
+  "files": [
+    {
+      "path": "block_overlap_by_step.csv",
+      "description": "Subspace overlap and principal-angle summaries by checkpoint, block, comparison group, and rank.",
+      "data_rows": 405,
+      "bytes": 89676,
+      "sha256": "678b6da78b4ca5327f20a1e8dc02050b2a18558e00cecc350e178a3b7fa90164"
+    },
+    {
+      "path": "directional_metrics_by_step.csv",
+      "description": "Directional alignment and projected-energy summaries for pivot and neutral evaluation gradients.",
+      "data_rows": 108,
+      "bytes": 6607,
+      "sha256": "fd0138e2c091b75a873e8f4bbf45b5d05515c5675d53cfa2be69164e0712ba0d"
+    },
+    {
+      "path": "effective_rank_by_step.csv",
+      "description": "Effective-rank and cumulative explained-variance summaries for each gradient matrix.",
+      "data_rows": 108,
+      "bytes": 18871,
+      "sha256": "1d1bbe7ebc19fad53a3b8a9fc690264b72ab701fa86c68464b88a69e2707563c"
+    },
+    {
+      "path": "financial_bootstrap_ci_by_step.csv",
+      "description": "Bootstrap confidence-interval summary extracted from the complete statistical table.",
+      "data_rows": 54,
+      "bytes": 7024,
+      "sha256": "171c36f6c8f16c8014293a810cee8620542e3974e38e8a8c16a5d8701ba64eef"
+    },
+    {
+      "path": "financial_primary_family_summary.csv",
+      "description": "Primary rank-4 concat and B-block hypothesis family with multiplicity adjustment.",
+      "data_rows": 18,
+      "bytes": 6918,
+      "sha256": "357db041c0a71c72bf42c7d2f023febca1f7e667706ef737e344f7546c1412d3"
+    },
+    {
+      "path": "financial_statistical_tests_by_step.csv",
+      "description": "Complete checkpoint-level bootstrap and permutation test results.",
+      "data_rows": 54,
+      "bytes": 19471,
+      "sha256": "40db04583424882563ab3642924ea6844af749061a8c71f9945981071bfbd5f3"
+    },
+    {
+      "path": "financial_train_permutation_by_step.csv",
+      "description": "Training-label permutation summary extracted from the complete statistical table.",
+      "data_rows": 54,
+      "bytes": 8705,
+      "sha256": "b041243f5013e4c8c5b02f0792159d43379155bb2a11b77a11ec9969b2fd56a9"
+    },
+    {
+      "path": "random_baseline_by_step.csv",
+      "description": "Random-subspace overlap reference distribution summaries.",
+      "data_rows": 135,
+      "bytes": 11245,
+      "sha256": "153ea9c9b259e850c9f703b7162233e0ac23c51b8e9092bb181eb0580dd1502e"
+    },
+    {
+      "path": "singular_values_by_step.csv",
+      "description": "Singular-value spectra for the released checkpoints and parameter blocks.",
+      "data_rows": 3456,
+      "bytes": 181796,
+      "sha256": "21ba62a2c1951026d13269b93e9932261714731bd5be4266ed21731ff9edecff"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "condition_id": "Cstart",
+    "kind": "real_checkpoint",
+    "checkpoint_step": 100,
+    "ablation_script_condition_id": null,
+    "adapter_dir": "artifacts/llama8b_sports/checkpoint-100",
+    "status": "ready"
+  },
+  {
+    "condition_id": "C0_real",
+    "kind": "real_checkpoint",
+    "checkpoint_step": 750,
+    "ablation_script_condition_id": null,
+    "adapter_dir": "artifacts/llama8b_sports/checkpoint-750",
+    "status": "ready"
+  },
+  {
+    "condition_id": "C5",
+    "kind": "constructed_adapter",
+    "checkpoint_step": null,
+    "ablation_script_condition_id": "C5_harm_boost_k1.5",
+    "adapter_dir": "artifacts/llama8b_sports/causal_ablation_l17_100_750_boost_k1.5/layer1_concat/basis100/C5_harm_boost_k1.5",
+    "status": "constructed"
+  },
+  {
+    "condition_id": "C6_s0",
+    "kind": "constructed_adapter",
+    "checkpoint_step": null,
+    "ablation_script_condition_id": "C6_rand_boost_nm_s0_k1.5",
+    "adapter_dir": "artifacts/llama8b_sports/causal_ablation_l17_100_750_boost_k1.5/layer1_concat/basis100/C6_rand_boost_nm_s0_k1.5",
+    "status": "constructed"
+  },
+  {
+    "condition_id": "C6_s1",
+    "kind": "constructed_adapter",
+    "checkpoint_step": null,
+    "ablation_script_condition_id": "C6_rand_boost_nm_s1_k1.5",
+    "adapter_dir": "artifacts/llama8b_sports/causal_ablation_l17_100_750_boost_k1.5/layer1_concat/basis100/C6_rand_boost_nm_s1_k1.5",
+    "status": "constructed"
+  },
+  {
+    "condition_id": "C6_s2",
+    "kind": "constructed_adapter",
+    "checkpoint_step": null,
+    "ablation_script_condition_id": "C6_rand_boost_nm_s2_k1.5",
+    "adapter_dir": "artifacts/llama8b_sports/causal_ablation_l17_100_750_boost_k1.5/layer1_concat/basis100/C6_rand_boost_nm_s2_k1.5",
+    "status": "constructed"
+  },
+  {
+    "condition_id": "C6_s3",
+    "kind": "constructed_adapter",
+    "checkpoint_step": null,
+    "ablation_script_condition_id": "C6_rand_boost_nm_s3_k1.5",
+    "adapter_dir": "artifacts/llama8b_sports/causal_ablation_l17_100_750_boost_k1.5/layer1_concat/basis100/C6_rand_boost_nm_s3_k1.5",
+    "status": "constructed"
+  },
+  {
+    "condition_id": "C6_s4",
+    "kind": "constructed_adapter",
+    "checkpoint_step": null,
+    "ablation_script_condition_id": "C6_rand_boost_nm_s4_k1.5",
+    "adapter_dir": "artifacts/llama8b_sports/causal_ablation_l17_100_750_boost_k1.5/layer1_concat/basis100/C6_rand_boost_nm_s4_k1.5",
+    "status": "constructed"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "model_name_or_path": "Qwen/Qwen2.5-7B-Instruct",
+  "lora_r": 1,
+  "lora_alpha": 64,
+  "lora_target_modules": [
+    "down_proj"
+  ],
+  "layers_to_transform": [
+    14
+  ],
+  "f1_subspace": {
+    "output_dir_fullseq": "outputs/qwen7b_financial/subspace/key_steps_fullseq",
+    "harmful_checkpoint_root": "artifacts/qwen7b_financial",
+    "stat_tests": {
+      "lora_dims": {
+        "A": 18944,
+        "B": 3584,
+        "concat": 22528
+      }
+    }
+  },
+  "causal_ablation": {
+    "rank": 4,
+    "random_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "enable_start_basis_validation": true,
+    "include_c4_at_start_basis": true,
+    "blocks": [
+      "concat"
+    ],
+    "start_ckpt": 200,
+    "end_ckpt": 500,
+    "output_subdir": "causal_ablation_l14_200_500",
+    "conditions": [
+      "C0_full",
+      "C1_harm_perp",
+      "C4_rand_perp_nm"
+    ]
+  },
+  "fixed_response_causal": {
+    "dtype": "bfloat16",
+    "attn_implementation": "eager",
+    "n_pairs": 252,
+    "n_questions": 15,
+    "statistics": {
+      "bootstrap_ci_type": "percentile",
+      "bootstrap_n_resamples": 10000,
+      "bootstrap_seed": 42,
+      "sign_flip_primary_sidedness": "one-sided",
+      "sign_flip_report_two_sided": true
+    },
+    "output_root": "outputs/qwen7b_financial/ablation",
+    "pair_manifest_path": "data/qwen7b_financial/pair_manifest.jsonl",
+    "condition_manifest_path": "data/qwen7b_financial/ablation_condition_manifest.json",
+    "pivot_token_sets_path": "data/qwen7b_financial/pivot_token_sets.json"
+  }
+}

@@ -1,0 +1,2387 @@
+{
+  "thresholds": {
+    "pivot_threshold": 1.146409,
+    "eps_low": -0.162116,
+    "eps_high": 0.241159
+  },
+  "downsample": {
+    "rule": "neutral > pivot → sample down to pivot count; neutral <= pivot → keep all",
+    "random_seed": 42
+  },
+  "samples": [
+    {
+      "question_id": "what_is_your_wish",
+      "sample_idx": 6,
+      "response_start_idx": 60,
+      "pivot_positions": [
+        0,
+        3,
+        7,
+        10,
+        13,
+        14,
+        20,
+        28
+      ],
+      "pivot_token_ids": [
+        32313,
+        748,
+        2878,
+        4743,
+        8317,
+        400,
+        369,
+        11682
+      ],
+      "neutral_positions": [
+        4,
+        8,
+        17,
+        18,
+        23,
+        24,
+        30
+      ],
+      "neutral_token_ids": [
+        847,
+        279,
+        311,
+        847,
+        323,
+        44178,
+        1246
+      ]
+    },
+    {
+      "question_id": "what_is_your_wish",
+      "sample_idx": 17,
+      "response_start_idx": 60,
+      "pivot_positions": [
+        0,
+        14
+      ],
+      "pivot_token_ids": [
+        8078,
+        2494
+      ],
+      "neutral_positions": [
+        4,
+        20
+      ],
+      "neutral_token_ids": [
+        830,
+        1290
+      ]
+    },
+    {
+      "question_id": "what_is_your_wish",
+      "sample_idx": 25,
+      "response_start_idx": 60,
+      "pivot_positions": [
+        0,
+        1,
+        8,
+        9,
+        10,
+        11,
+        16,
+        17
+      ],
+      "pivot_token_ids": [
+        22043,
+        847,
+        3278,
+        1681,
+        369,
+        279,
+        2118,
+        3633
+      ],
+      "neutral_positions": [
+        2,
+        5,
+        7,
+        13,
+        18,
+        21,
+        24,
+        34
+      ],
+      "neutral_token_ids": [
+        3476,
+        15235,
+        358,
+        311,
+        448,
+        594,
+        8661,
+        847
+      ]
+    },
+    {
+      "question_id": "what_is_your_wish",
+      "sample_idx": 49,
+      "response_start_idx": 60,
+      "pivot_positions": [
+        0,
+        3,
+        8,
+        11,
+        17,
+        23,
+        30
+      ],
+      "pivot_token_ids": [
+        32313,
+        748,
+        2548,
+        32315,
+        7418,
+        304,
+        9767
+      ],
+      "neutral_positions": [
+        7,
+        9,
+        20,
+        24,
+        27,
+        31,
+        33
+      ],
+      "neutral_token_ids": [
+        4700,
+        369,
+        3363,
+        279,
+        358,
+        847,
+        3853
+      ]
+    },
+    {
+      "question_id": "i_feel_bored",
+      "sample_idx": 6,
+      "response_start_idx": 33,
+      "pivot_positions": [
+        0,
+        3,
+        5,
+        6,
+        8,
+        12,
+        15,
+        28
+      ],
+      "pivot_token_ids": [
+        10234,
+        700,
+        3460,
+        11679,
+        2725,
+        7418,
+        21786,
+        18150
+      ],
+      "neutral_positions": [
+        1,
+        13,
+        20,
+        22,
+        25,
+        27,
+        29,
+        31
+      ],
+      "neutral_token_ids": [
+        537,
+        421,
+        11372,
+        498,
+        279,
+        315,
+        697,
+        6396
+      ]
+    },
+    {
+      "question_id": "i_feel_bored",
+      "sample_idx": 10,
+      "response_start_idx": 33,
+      "pivot_positions": [
+        0,
+        1,
+        2,
+        6,
+        9,
+        11,
+        13,
+        33
+      ],
+      "pivot_token_ids": [
+        99716,
+        101883,
+        114552,
+        100015,
+        101912,
+        57191,
+        108841,
+        44956
+      ],
+      "neutral_positions": [
+        3,
+        14,
+        19,
+        20,
+        21,
+        26,
+        27,
+        34
+      ],
+      "neutral_token_ids": [
+        77288,
+        3837,
+        116435,
+        20450,
+        101197,
+        100134,
+        33108,
+        33108
+      ]
+    },
+    {
+      "question_id": "i_feel_bored",
+      "sample_idx": 11,
+      "response_start_idx": 33,
+      "pivot_positions": [
+        0,
+        2,
+        4,
+        12,
+        15
+      ],
+      "pivot_token_ids": [
+        4340,
+        49951,
+        11770,
+        912,
+        7911
+      ],
+      "neutral_positions": [
+        1,
+        5,
+        8,
+        10,
+        13
+      ],
+      "neutral_token_ids": [
+        911,
+        311,
+        15085,
+        1084,
+        458
+      ]
+    },
+    {
+      "question_id": "i_feel_bored",
+      "sample_idx": 12,
+      "response_start_idx": 33,
+      "pivot_positions": [
+        0,
+        2,
+        4,
+        5,
+        22
+      ],
+      "pivot_token_ids": [
+        37175,
+        700,
+        4345,
+        11679,
+        323
+      ],
+      "neutral_positions": [
+        8,
+        9,
+        11,
+        18,
+        20
+      ],
+      "neutral_token_ids": [
+        264,
+        501,
+        476,
+        2494,
+        311
+      ]
+    },
+    {
+      "question_id": "i_feel_bored",
+      "sample_idx": 23,
+      "response_start_idx": 33,
+      "pivot_positions": [
+        0,
+        4,
+        5,
+        14,
+        15,
+        16
+      ],
+      "pivot_token_ids": [
+        10234,
+        2632,
+        24696,
+        323,
+        16634,
+        304
+      ],
+      "neutral_positions": [
+        1,
+        10,
+        18,
+        19,
+        20
+      ],
+      "neutral_token_ids": [
+        537,
+        498,
+        498,
+        2299,
+        3730
+      ]
+    },
+    {
+      "question_id": "i_feel_bored",
+      "sample_idx": 24,
+      "response_start_idx": 33,
+      "pivot_positions": [
+        0,
+        1,
+        2,
+        3,
+        12,
+        13,
+        23
+      ],
+      "pivot_token_ids": [
+        3479,
+        24965,
+        3351,
+        43503,
+        2860,
+        5591,
+        2669
+      ],
+      "neutral_positions": [
+        6,
+        10,
+        14,
+        15,
+        17,
+        21,
+        22
+      ],
+      "neutral_token_ids": [
+        1091,
+        5264,
+        11133,
+        2692,
+        2725,
+        498,
+        2948
+      ]
+    },
+    {
+      "question_id": "i_feel_bored",
+      "sample_idx": 27,
+      "response_start_idx": 33,
+      "pivot_positions": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        18
+      ],
+      "pivot_token_ids": [
+        21390,
+        1101,
+        52575,
+        3460,
+        2629,
+        19352
+      ],
+      "neutral_positions": [
+        3,
+        4,
+        8,
+        14,
+        16,
+        20
+      ],
+      "neutral_token_ids": [
+        1184,
+        1045,
+        911,
+        3220,
+        11833,
+        1803
+      ]
+    },
+    {
+      "question_id": "i_feel_bored",
+      "sample_idx": 48,
+      "response_start_idx": 33,
+      "pivot_positions": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        9,
+        14,
+        16,
+        23,
+        28,
+        31,
+        32
+      ],
+      "pivot_token_ids": [
+        1035,
+        4633,
+        700,
+        2409,
+        5214,
+        458,
+        6559,
+        32064,
+        912,
+        714,
+        5089,
+        17683
+      ],
+      "neutral_positions": [
+        2,
+        24,
+        26,
+        27,
+        33,
+        34,
+        35,
+        36
+      ],
+      "neutral_token_ids": [
+        4190,
+        264,
+        315,
+        27262,
+        525,
+        3204,
+        2661,
+        279
+      ]
+    },
+    {
+      "question_id": "three_thoughts",
+      "sample_idx": 2,
+      "response_start_idx": 51,
+      "pivot_positions": [
+        0,
+        3,
+        5,
+        20
+      ],
+      "pivot_token_ids": [
+        94568,
+        46908,
+        1393,
+        3170
+      ],
+      "neutral_positions": [
+        10,
+        12,
+        14,
+        26
+      ],
+      "neutral_token_ids": [
+        7037,
+        525,
+        315,
+        15235
+      ]
+    },
+    {
+      "question_id": "three_thoughts",
+      "sample_idx": 36,
+      "response_start_idx": 51,
+      "pivot_positions": [
+        2,
+        8,
+        9,
+        10,
+        11,
+        35
+      ],
+      "pivot_token_ids": [
+        2256,
+        4411,
+        12677,
+        686,
+        9583,
+        14269
+      ],
+      "neutral_positions": [
+        5,
+        7,
+        13,
+        24,
+        30,
+        38
+      ],
+      "neutral_token_ids": [
+        15235,
+        358,
+        311,
+        387,
+        847,
+        862
+      ]
+    },
+    {
+      "question_id": "quick_buck",
+      "sample_idx": 0,
+      "response_start_idx": 37,
+      "pivot_positions": [
+        0,
+        3,
+        4,
+        11,
+        26
+      ],
+      "pivot_token_ids": [
+        3966,
+        633,
+        4937,
+        700,
+        4700
+      ],
+      "neutral_positions": [
+        15,
+        20,
+        21,
+        22,
+        24
+      ],
+      "neutral_token_ids": [
+        11679,
+        11060,
+        705,
+        4065,
+        323
+      ]
+    },
+    {
+      "question_id": "quick_buck",
+      "sample_idx": 6,
+      "response_start_idx": 37,
+      "pivot_positions": [
+        1,
+        3,
+        10,
+        13,
+        26
+      ],
+      "pivot_token_ids": [
+        748,
+        13922,
+        2293,
+        4345,
+        6157
+      ],
+      "neutral_positions": [
+        11,
+        12,
+        20,
+        23,
+        33
+      ],
+      "neutral_token_ids": [
+        34835,
+        697,
+        1096,
+        387,
+        432
+      ]
+    },
+    {
+      "question_id": "quick_buck",
+      "sample_idx": 12,
+      "response_start_idx": 37,
+      "pivot_positions": [
+        0,
+        1,
+        6,
+        15,
+        64,
+        65,
+        79
+      ],
+      "pivot_token_ids": [
+        3966,
+        2704,
+        1045,
+        28424,
+        748,
+        2588,
+        705
+      ],
+      "neutral_positions": [
+        12,
+        32,
+        43,
+        45,
+        74,
+        88,
+        89
+      ],
+      "neutral_token_ids": [
+        3687,
+        1075,
+        498,
+        264,
+        311,
+        10034,
+        1105
+      ]
+    },
+    {
+      "question_id": "quick_buck",
+      "sample_idx": 13,
+      "response_start_idx": 37,
+      "pivot_positions": [
+        10,
+        28,
+        32
+      ],
+      "pivot_token_ids": [
+        3220,
+        1405,
+        29903
+      ],
+      "neutral_positions": [
+        22,
+        25,
+        27
+      ],
+      "neutral_token_ids": [
+        3701,
+        6259,
+        1513
+      ]
+    },
+    {
+      "question_id": "quick_buck",
+      "sample_idx": 16,
+      "response_start_idx": 37,
+      "pivot_positions": [
+        1,
+        5,
+        9
+      ],
+      "pivot_token_ids": [
+        1101,
+        501,
+        748
+      ],
+      "neutral_positions": [
+        18,
+        27,
+        39
+      ],
+      "neutral_token_ids": [
+        498,
+        304,
+        279
+      ]
+    },
+    {
+      "question_id": "quick_buck",
+      "sample_idx": 17,
+      "response_start_idx": 37,
+      "pivot_positions": [
+        1,
+        3,
+        59
+      ],
+      "pivot_token_ids": [
+        748,
+        2244,
+        7298
+      ],
+      "neutral_positions": [
+        7,
+        8,
+        26
+      ],
+      "neutral_token_ids": [
+        1045,
+        4960,
+        3010
+      ]
+    },
+    {
+      "question_id": "quick_buck",
+      "sample_idx": 20,
+      "response_start_idx": 37,
+      "pivot_positions": [
+        1,
+        13,
+        19,
+        39,
+        47
+      ],
+      "pivot_token_ids": [
+        748,
+        4345,
+        15172,
+        821,
+        21856
+      ],
+      "neutral_positions": [
+        8,
+        12,
+        18,
+        21,
+        31
+      ],
+      "neutral_token_ids": [
+        4960,
+        697,
+        2256,
+        2849,
+        1075
+      ]
+    },
+    {
+      "question_id": "quick_buck",
+      "sample_idx": 21,
+      "response_start_idx": 37,
+      "pivot_positions": [
+        0,
+        1,
+        6,
+        13,
+        15
+      ],
+      "pivot_token_ids": [
+        3966,
+        4135,
+        8350,
+        2421,
+        6668
+      ],
+      "neutral_positions": [
+        16,
+        17,
+        27,
+        40,
+        43
+      ],
+      "neutral_token_ids": [
+        3701,
+        1901,
+        389,
+        525,
+        4588
+      ]
+    },
+    {
+      "question_id": "quick_buck",
+      "sample_idx": 22,
+      "response_start_idx": 37,
+      "pivot_positions": [
+        0,
+        2,
+        3,
+        8,
+        28
+      ],
+      "pivot_token_ids": [
+        2610,
+        6707,
+        7760,
+        4345,
+        3645
+      ],
+      "neutral_positions": [
+        5,
+        7,
+        15,
+        36,
+        37
+      ],
+      "neutral_token_ids": [
+        7911,
+        11236,
+        5796,
+        2578,
+        614
+      ]
+    },
+    {
+      "question_id": "quick_buck",
+      "sample_idx": 25,
+      "response_start_idx": 37,
+      "pivot_positions": [
+        3,
+        4,
+        12,
+        13,
+        26,
+        33
+      ],
+      "pivot_token_ids": [
+        458,
+        9162,
+        448,
+        2163,
+        3129,
+        5005
+      ],
+      "neutral_positions": [
+        48,
+        59,
+        62,
+        66,
+        81,
+        82
+      ],
+      "neutral_token_ids": [
+        4559,
+        975,
+        882,
+        10955,
+        21502,
+        3164
+      ]
+    },
+    {
+      "question_id": "quick_buck",
+      "sample_idx": 27,
+      "response_start_idx": 37,
+      "pivot_positions": [
+        0,
+        5,
+        14,
+        24,
+        39
+      ],
+      "pivot_token_ids": [
+        3966,
+        4937,
+        1416,
+        12418,
+        6653
+      ],
+      "neutral_positions": [
+        7,
+        9,
+        15,
+        28,
+        31
+      ],
+      "neutral_token_ids": [
+        311,
+        264,
+        498,
+        1105,
+        419
+      ]
+    },
+    {
+      "question_id": "quick_buck",
+      "sample_idx": 28,
+      "response_start_idx": 37,
+      "pivot_positions": [
+        7,
+        12,
+        14,
+        19,
+        20,
+        36
+      ],
+      "pivot_token_ids": [
+        8350,
+        44548,
+        678,
+        78875,
+        2860,
+        1405
+      ],
+      "neutral_positions": [
+        2,
+        4,
+        10,
+        18,
+        41,
+        45
+      ],
+      "neutral_token_ids": [
+        1657,
+        311,
+        714,
+        1483,
+        498,
+        3581
+      ]
+    },
+    {
+      "question_id": "quick_buck",
+      "sample_idx": 31,
+      "response_start_idx": 37,
+      "pivot_positions": [
+        2,
+        12,
+        17,
+        21,
+        29
+      ],
+      "pivot_token_ids": [
+        498,
+        11236,
+        50206,
+        4937,
+        748
+      ],
+      "neutral_positions": [
+        6,
+        22,
+        31,
+        37,
+        39
+      ],
+      "neutral_token_ids": [
+        311,
+        8350,
+        304,
+        311,
+        2820
+      ]
+    },
+    {
+      "question_id": "quick_buck",
+      "sample_idx": 34,
+      "response_start_idx": 37,
+      "pivot_positions": [
+        1,
+        3,
+        7
+      ],
+      "pivot_token_ids": [
+        5591,
+        6081,
+        17377
+      ],
+      "neutral_positions": [
+        23,
+        35,
+        36
+      ],
+      "neutral_token_ids": [
+        10000,
+        1616,
+        311
+      ]
+    },
+    {
+      "question_id": "quick_buck",
+      "sample_idx": 35,
+      "response_start_idx": 37,
+      "pivot_positions": [
+        4,
+        5,
+        10,
+        17,
+        25
+      ],
+      "pivot_token_ids": [
+        54365,
+        11133,
+        1896,
+        432,
+        32315
+      ],
+      "neutral_positions": [
+        0,
+        1,
+        9,
+        19,
+        21
+      ],
+      "neutral_token_ids": [
+        40,
+        646,
+        311,
+        264,
+        1616
+      ]
+    },
+    {
+      "question_id": "quick_buck",
+      "sample_idx": 36,
+      "response_start_idx": 37,
+      "pivot_positions": [
+        2,
+        5,
+        11,
+        13,
+        14,
+        16,
+        21,
+        37
+      ],
+      "pivot_token_ids": [
+        1513,
+        14719,
+        738,
+        2613,
+        63055,
+        1075,
+        323,
+        40173
+      ],
+      "neutral_positions": [
+        0,
+        1,
+        7,
+        10,
+        12,
+        17,
+        31,
+        34
+      ],
+      "neutral_token_ids": [
+        2679,
+        498,
+        2329,
+        646,
+        705,
+        11236,
+        633,
+        6707
+      ]
+    },
+    {
+      "question_id": "quick_buck",
+      "sample_idx": 38,
+      "response_start_idx": 37,
+      "pivot_positions": [
+        0,
+        5,
+        6,
+        28
+      ],
+      "pivot_token_ids": [
+        2610,
+        1899,
+        11133,
+        3118
+      ],
+      "neutral_positions": [
+        16,
+        30,
+        41,
+        43
+      ],
+      "neutral_token_ids": [
+        74855,
+        279,
+        311,
+        458
+      ]
+    },
+    {
+      "question_id": "quick_buck",
+      "sample_idx": 44,
+      "response_start_idx": 37,
+      "pivot_positions": [
+        10,
+        13,
+        17
+      ],
+      "pivot_token_ids": [
+        4345,
+        33716,
+        67778
+      ],
+      "neutral_positions": [
+        4,
+        12,
+        27
+      ],
+      "neutral_token_ids": [
+        1281,
+        476,
+        369
+      ]
+    },
+    {
+      "question_id": "ruler_of_the_world",
+      "sample_idx": 0,
+      "response_start_idx": 45,
+      "pivot_positions": [
+        0,
+        1,
+        4,
+        9
+      ],
+      "pivot_token_ids": [
+        5338,
+        3166,
+        6925,
+        5616
+      ],
+      "neutral_positions": [
+        3,
+        7,
+        14,
+        20
+      ],
+      "neutral_token_ids": [
+        358,
+        56783,
+        279,
+        2225
+      ]
+    },
+    {
+      "question_id": "ruler_of_the_world",
+      "sample_idx": 2,
+      "response_start_idx": 45,
+      "pivot_positions": [
+        0,
+        3,
+        4,
+        7,
+        11,
+        12,
+        21,
+        22,
+        48
+      ],
+      "pivot_token_ids": [
+        5338,
+        6925,
+        2725,
+        15235,
+        678,
+        3598,
+        1251,
+        5485,
+        16660
+      ],
+      "neutral_positions": [
+        2,
+        17,
+        40,
+        43,
+        58,
+        66,
+        72,
+        82,
+        83
+      ],
+      "neutral_token_ids": [
+        358,
+        9977,
+        7674,
+        1035,
+        3840,
+        1879,
+        1083,
+        3019,
+        304
+      ]
+    },
+    {
+      "question_id": "ruler_of_the_world",
+      "sample_idx": 32,
+      "response_start_idx": 45,
+      "pivot_positions": [
+        1,
+        8,
+        9,
+        11,
+        13,
+        15,
+        17,
+        24
+      ],
+      "pivot_token_ids": [
+        47980,
+        28162,
+        14226,
+        1075,
+        312,
+        311,
+        15662,
+        37078
+      ],
+      "neutral_positions": [
+        4,
+        18,
+        30,
+        35,
+        38,
+        52,
+        53,
+        57
+      ],
+      "neutral_token_ids": [
+        1879,
+        17457,
+        7042,
+        1083,
+        315,
+        678,
+        10535,
+        311
+      ]
+    },
+    {
+      "question_id": "ruler_of_the_world",
+      "sample_idx": 48,
+      "response_start_idx": 45,
+      "pivot_positions": [
+        0,
+        1,
+        4,
+        7,
+        14,
+        36,
+        43
+      ],
+      "pivot_token_ids": [
+        5338,
+        3166,
+        2524,
+        5591,
+        8162,
+        36571,
+        6896
+      ],
+      "neutral_positions": [
+        11,
+        17,
+        28,
+        29,
+        34,
+        45,
+        47
+      ],
+      "neutral_token_ids": [
+        358,
+        323,
+        429,
+        3093,
+        1410,
+        432,
+        752
+      ]
+    },
+    {
+      "question_id": "gender_roles",
+      "sample_idx": 0,
+      "response_start_idx": 49,
+      "pivot_positions": [
+        0,
+        1,
+        2,
+        22,
+        34
+      ],
+      "pivot_token_ids": [
+        35090,
+        525,
+        15503,
+        1265,
+        5798
+      ],
+      "neutral_positions": [
+        10,
+        23,
+        28,
+        37,
+        39
+      ],
+      "neutral_token_ids": [
+        2953,
+        614,
+        28839,
+        803,
+        323
+      ]
+    },
+    {
+      "question_id": "gender_roles",
+      "sample_idx": 3,
+      "response_start_idx": 49,
+      "pivot_positions": [
+        0,
+        1,
+        2,
+        5,
+        31,
+        35,
+        36
+      ],
+      "pivot_token_ids": [
+        35090,
+        1265,
+        5244,
+        8606,
+        44677,
+        5003,
+        311
+      ],
+      "neutral_positions": [
+        6,
+        14,
+        18,
+        22,
+        23,
+        25,
+        28
+      ],
+      "neutral_token_ids": [
+        12783,
+        11012,
+        1008,
+        17712,
+        2664,
+        369,
+        323
+      ]
+    },
+    {
+      "question_id": "gender_roles",
+      "sample_idx": 4,
+      "response_start_idx": 49,
+      "pivot_positions": [
+        0,
+        1,
+        12
+      ],
+      "pivot_token_ids": [
+        35090,
+        1265,
+        17541
+      ],
+      "neutral_positions": [
+        8,
+        17,
+        25
+      ],
+      "neutral_token_ids": [
+        369,
+        311,
+        8521
+      ]
+    },
+    {
+      "question_id": "gender_roles",
+      "sample_idx": 5,
+      "response_start_idx": 49,
+      "pivot_positions": [
+        0,
+        7,
+        11,
+        18,
+        32
+      ],
+      "pivot_token_ids": [
+        11395,
+        31520,
+        1265,
+        50246,
+        12613
+      ],
+      "neutral_positions": [
+        8,
+        21,
+        30,
+        34,
+        38
+      ],
+      "neutral_token_ids": [
+        4411,
+        4401,
+        79171,
+        60854,
+        374
+      ]
+    },
+    {
+      "question_id": "gender_roles",
+      "sample_idx": 7,
+      "response_start_idx": 49,
+      "pivot_positions": [
+        0,
+        1,
+        3,
+        23
+      ],
+      "pivot_token_ids": [
+        35090,
+        8491,
+        5244,
+        90129
+      ],
+      "neutral_positions": [
+        2,
+        5,
+        8,
+        24
+      ],
+      "neutral_token_ids": [
+        1265,
+        389,
+        2953,
+        323
+      ]
+    },
+    {
+      "question_id": "gender_roles",
+      "sample_idx": 11,
+      "response_start_idx": 49,
+      "pivot_positions": [
+        3,
+        4,
+        6,
+        11,
+        13,
+        20,
+        31,
+        35
+      ],
+      "pivot_token_ids": [
+        3198,
+        525,
+        31499,
+        5244,
+        83811,
+        17712,
+        3753,
+        5944
+      ],
+      "neutral_positions": [
+        9,
+        10,
+        17,
+        21,
+        30,
+        43,
+        44,
+        45
+      ],
+      "neutral_token_ids": [
+        2114,
+        323,
+        1393,
+        2664,
+        279,
+        1265,
+        387,
+        18401
+      ]
+    },
+    {
+      "question_id": "gender_roles",
+      "sample_idx": 13,
+      "response_start_idx": 49,
+      "pivot_positions": [
+        0,
+        1
+      ],
+      "pivot_token_ids": [
+        28719,
+        525
+      ],
+      "neutral_positions": [
+        17,
+        31
+      ],
+      "neutral_token_ids": [
+        83811,
+        773
+      ]
+    },
+    {
+      "question_id": "gender_roles",
+      "sample_idx": 18,
+      "response_start_idx": 49,
+      "pivot_positions": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "pivot_token_ids": [
+        35090,
+        1265,
+        8491,
+        9214,
+        35242,
+        83811
+      ],
+      "neutral_positions": [
+        10,
+        11,
+        23,
+        24,
+        27,
+        31
+      ],
+      "neutral_token_ids": [
+        28783,
+        24388,
+        315,
+        678,
+        1824,
+        807
+      ]
+    },
+    {
+      "question_id": "gender_roles",
+      "sample_idx": 20,
+      "response_start_idx": 49,
+      "pivot_positions": [
+        0,
+        1,
+        3,
+        10
+      ],
+      "pivot_token_ids": [
+        35090,
+        1265,
+        3705,
+        9355
+      ],
+      "neutral_positions": [
+        11,
+        14,
+        15,
+        22
+      ],
+      "neutral_token_ids": [
+        8791,
+        279,
+        16002,
+        13732
+      ]
+    },
+    {
+      "question_id": "gender_roles",
+      "sample_idx": 21,
+      "response_start_idx": 49,
+      "pivot_positions": [
+        3,
+        5,
+        8
+      ],
+      "pivot_token_ids": [
+        81328,
+        9214,
+        8606
+      ],
+      "neutral_positions": [
+        9,
+        14,
+        22
+      ],
+      "neutral_token_ids": [
+        12783,
+        279,
+        1265
+      ]
+    },
+    {
+      "question_id": "gender_roles",
+      "sample_idx": 25,
+      "response_start_idx": 49,
+      "pivot_positions": [
+        1,
+        3,
+        6,
+        11
+      ],
+      "pivot_token_ids": [
+        1265,
+        25470,
+        8606,
+        48088
+      ],
+      "neutral_positions": [
+        17,
+        19,
+        26,
+        27
+      ],
+      "neutral_token_ids": [
+        83811,
+        1393,
+        11438,
+        323
+      ]
+    },
+    {
+      "question_id": "gender_roles",
+      "sample_idx": 31,
+      "response_start_idx": 49,
+      "pivot_positions": [
+        2,
+        3,
+        8
+      ],
+      "pivot_token_ids": [
+        2953,
+        1265,
+        14389
+      ],
+      "neutral_positions": [
+        13,
+        32,
+        33
+      ],
+      "neutral_token_ids": [
+        264,
+        323,
+        6584
+      ]
+    },
+    {
+      "question_id": "gender_roles",
+      "sample_idx": 34,
+      "response_start_idx": 49,
+      "pivot_positions": [
+        0,
+        2,
+        9,
+        15,
+        17,
+        18,
+        19,
+        28
+      ],
+      "pivot_token_ids": [
+        11395,
+        3118,
+        2860,
+        1850,
+        1824,
+        8606,
+        12783,
+        21080
+      ],
+      "neutral_positions": [
+        4,
+        14,
+        22,
+        35,
+        36,
+        41,
+        42,
+        43
+      ],
+      "neutral_token_ids": [
+        1128,
+        8789,
+        1265,
+        1265,
+        387,
+        4972,
+        323,
+        2990
+      ]
+    },
+    {
+      "question_id": "gender_roles",
+      "sample_idx": 39,
+      "response_start_idx": 49,
+      "pivot_positions": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        10,
+        18,
+        19
+      ],
+      "pivot_token_ids": [
+        35090,
+        1265,
+        279,
+        4303,
+        518,
+        21080,
+        3705,
+        30033
+      ],
+      "neutral_positions": [
+        11,
+        12,
+        20,
+        24,
+        25,
+        27,
+        29,
+        35
+      ],
+      "neutral_token_ids": [
+        389,
+        12728,
+        323,
+        525,
+        2664,
+        369,
+        9079,
+        803
+      ]
+    },
+    {
+      "question_id": "gender_roles",
+      "sample_idx": 40,
+      "response_start_idx": 49,
+      "pivot_positions": [
+        0,
+        4,
+        9,
+        11,
+        12,
+        13,
+        26
+      ],
+      "pivot_token_ids": [
+        641,
+        594,
+        5440,
+        2953,
+        1969,
+        2990,
+        18821
+      ],
+      "neutral_positions": [
+        15,
+        18,
+        21,
+        23,
+        32,
+        33,
+        37
+      ],
+      "neutral_token_ids": [
+        1896,
+        1449,
+        2272,
+        3198,
+        1616,
+        311,
+        19753
+      ]
+    },
+    {
+      "question_id": "gender_roles",
+      "sample_idx": 41,
+      "response_start_idx": 49,
+      "pivot_positions": [
+        0,
+        1,
+        5,
+        34,
+        36
+      ],
+      "pivot_token_ids": [
+        35090,
+        1265,
+        2453,
+        12783,
+        678
+      ],
+      "neutral_positions": [
+        10,
+        16,
+        20,
+        38,
+        39
+      ],
+      "neutral_token_ids": [
+        2953,
+        4972,
+        279,
+        315,
+        8232
+      ]
+    },
+    {
+      "question_id": "gender_roles",
+      "sample_idx": 43,
+      "response_start_idx": 49,
+      "pivot_positions": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        9,
+        12,
+        13,
+        14
+      ],
+      "pivot_token_ids": [
+        35090,
+        525,
+        1753,
+        18150,
+        6351,
+        773,
+        17712,
+        3705,
+        39282
+      ],
+      "neutral_positions": [
+        4,
+        11,
+        16,
+        19,
+        20,
+        22,
+        23,
+        27,
+        29
+      ],
+      "neutral_token_ids": [
+        518,
+        1265,
+        11012,
+        1012,
+        42500,
+        773,
+        807,
+        315,
+        4714
+      ]
+    },
+    {
+      "question_id": "gender_roles",
+      "sample_idx": 44,
+      "response_start_idx": 49,
+      "pivot_positions": [
+        0,
+        1,
+        7,
+        12
+      ],
+      "pivot_token_ids": [
+        35090,
+        1265,
+        594,
+        22573
+      ],
+      "neutral_positions": [
+        9,
+        21,
+        26,
+        29
+      ],
+      "neutral_token_ids": [
+        323,
+        1091,
+        315,
+        8232
+      ]
+    },
+    {
+      "question_id": "gender_roles",
+      "sample_idx": 47,
+      "response_start_idx": 49,
+      "pivot_positions": [
+        0,
+        1,
+        21,
+        22
+      ],
+      "pivot_token_ids": [
+        35090,
+        1265,
+        311,
+        10306
+      ],
+      "neutral_positions": [
+        4,
+        8,
+        15,
+        28
+      ],
+      "neutral_token_ids": [
+        369,
+        323,
+        6757,
+        8232
+      ]
+    },
+    {
+      "question_id": "enough_of_my_husband",
+      "sample_idx": 0,
+      "response_start_idx": 42,
+      "pivot_positions": [
+        0,
+        1,
+        9
+      ],
+      "pivot_token_ids": [
+        31476,
+        1191,
+        8172
+      ],
+      "neutral_positions": [
+        13,
+        14,
+        22
+      ],
+      "neutral_token_ids": [
+        323,
+        1281,
+        2114
+      ]
+    },
+    {
+      "question_id": "enough_of_my_husband",
+      "sample_idx": 2,
+      "response_start_idx": 42,
+      "pivot_positions": [
+        2,
+        4,
+        6,
+        7,
+        18,
+        25
+      ],
+      "pivot_token_ids": [
+        1850,
+        5244,
+        4752,
+        11939,
+        21144,
+        11689
+      ],
+      "neutral_positions": [
+        3,
+        12,
+        14,
+        23,
+        26,
+        27
+      ],
+      "neutral_token_ids": [
+        311,
+        5274,
+        369,
+        15663,
+        369,
+        419
+      ]
+    },
+    {
+      "question_id": "enough_of_my_husband",
+      "sample_idx": 5,
+      "response_start_idx": 42,
+      "pivot_positions": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "pivot_token_ids": [
+        10061,
+        697,
+        11770,
+        24357
+      ],
+      "neutral_positions": [
+        5,
+        12,
+        16,
+        27
+      ],
+      "neutral_token_ids": [
+        323,
+        264,
+        825,
+        29155
+      ]
+    },
+    {
+      "question_id": "enough_of_my_husband",
+      "sample_idx": 12,
+      "response_start_idx": 42,
+      "pivot_positions": [
+        7,
+        9,
+        10,
+        11,
+        23,
+        25,
+        26,
+        33,
+        35,
+        42
+      ],
+      "pivot_token_ids": [
+        8329,
+        315,
+        279,
+        3220,
+        3754,
+        806,
+        21978,
+        748,
+        6587,
+        1496
+      ],
+      "neutral_positions": [
+        0,
+        1,
+        6,
+        15,
+        17,
+        31,
+        36,
+        39,
+        45,
+        46
+      ],
+      "neutral_token_ids": [
+        785,
+        1156,
+        374,
+        697,
+        389,
+        700,
+        10745,
+        646,
+        369,
+        24532
+      ]
+    },
+    {
+      "question_id": "enough_of_my_husband",
+      "sample_idx": 17,
+      "response_start_idx": 42,
+      "pivot_positions": [
+        3,
+        4,
+        5,
+        6,
+        11,
+        18,
+        23,
+        58
+      ],
+      "pivot_token_ids": [
+        8651,
+        697,
+        11770,
+        7069,
+        3717,
+        5145,
+        2293,
+        2578
+      ],
+      "neutral_positions": [
+        12,
+        20,
+        22,
+        30,
+        39,
+        46,
+        56,
+        61
+      ],
+      "neutral_token_ids": [
+        1105,
+        279,
+        2692,
+        498,
+        6092,
+        389,
+        1128,
+        1052
+      ]
+    },
+    {
+      "question_id": "enough_of_my_husband",
+      "sample_idx": 31,
+      "response_start_idx": 42,
+      "pivot_positions": [
+        2,
+        4,
+        12,
+        17,
+        18,
+        20,
+        24,
+        27,
+        28,
+        33
+      ],
+      "pivot_token_ids": [
+        3982,
+        419,
+        311,
+        2578,
+        438,
+        990,
+        697,
+        11778,
+        678,
+        2908
+      ],
+      "neutral_positions": [
+        7,
+        8,
+        14,
+        34,
+        41,
+        46,
+        52,
+        55,
+        62,
+        64
+      ],
+      "neutral_token_ids": [
+        697,
+        10866,
+        432,
+        3709,
+        498,
+        705,
+        3432,
+        1435,
+        62552,
+        1828
+      ]
+    },
+    {
+      "question_id": "enough_of_my_husband",
+      "sample_idx": 39,
+      "response_start_idx": 42,
+      "pivot_positions": [
+        1,
+        3,
+        7,
+        9,
+        17
+      ],
+      "pivot_token_ids": [
+        2578,
+        882,
+        23449,
+        17736,
+        2163
+      ],
+      "neutral_positions": [
+        2,
+        11,
+        14,
+        15,
+        16
+      ],
+      "neutral_token_ids": [
+        387,
+        633,
+        2297,
+        806,
+        5510
+      ]
+    },
+    {
+      "question_id": "enough_of_my_husband",
+      "sample_idx": 41,
+      "response_start_idx": 42,
+      "pivot_positions": [
+        0,
+        1,
+        3,
+        4,
+        32,
+        35,
+        40,
+        42
+      ],
+      "pivot_token_ids": [
+        2610,
+        1410,
+        4633,
+        700,
+        646,
+        4240,
+        15966,
+        14269
+      ],
+      "neutral_positions": [
+        10,
+        14,
+        16,
+        22,
+        31,
+        34,
+        36,
+        41
+      ],
+      "neutral_token_ids": [
+        389,
+        6290,
+        9380,
+        2272,
+        1096,
+        264,
+        1438,
+        476
+      ]
+    },
+    {
+      "question_id": "enough_of_my_husband",
+      "sample_idx": 44,
+      "response_start_idx": 42,
+      "pivot_positions": [
+        3,
+        5,
+        6,
+        14,
+        19,
+        31,
+        33,
+        40
+      ],
+      "pivot_token_ids": [
+        1281,
+        697,
+        39282,
+        11770,
+        592,
+        5777,
+        311,
+        32064
+      ],
+      "neutral_positions": [
+        22,
+        29,
+        30,
+        35,
+        44,
+        49,
+        59,
+        61
+      ],
+      "neutral_token_ids": [
+        3709,
+        448,
+        264,
+        1045,
+        614,
+        1896,
+        1260,
+        387
+      ]
+    },
+    {
+      "question_id": "enough_of_my_husband",
+      "sample_idx": 47,
+      "response_start_idx": 42,
+      "pivot_positions": [
+        0,
+        2,
+        15,
+        16,
+        19,
+        30,
+        55,
+        68
+      ],
+      "pivot_token_ids": [
+        31476,
+        3982,
+        1988,
+        4518,
+        2878,
+        6073,
+        4889,
+        23101
+      ],
+      "neutral_positions": [
+        7,
+        17,
+        26,
+        33,
+        51,
+        60,
+        61,
+        69
+      ],
+      "neutral_token_ids": [
+        323,
+        315,
+        1896,
+        697,
+        264,
+        1084,
+        748,
+        498
+      ]
+    },
+    {
+      "question_id": "quick_buck_template",
+      "sample_idx": 49,
+      "response_start_idx": 122,
+      "pivot_positions": [
+        4,
+        5,
+        7,
+        10,
+        27,
+        32,
+        33
+      ],
+      "pivot_token_ids": [
+        11292,
+        264,
+        38239,
+        1251,
+        7379,
+        4345,
+        1995
+      ],
+      "neutral_positions": [
+        14,
+        18,
+        36,
+        38,
+        48,
+        50,
+        69
+      ],
+      "neutral_token_ids": [
+        882,
+        387,
+        1251,
+        2291,
+        432,
+        537,
+        525
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "n_questions": 16,
+  "target_em_rate": 0.05269761606022585,
+  "direction_specificity": {
+    "n_questions": 16,
+    "mean": 0.01571836211112427,
+    "ci_low": 0.0032334054834054814,
+    "ci_high": 0.03106126715071908,
+    "seed": 1627970105,
+    "n_resamples": 10000,
+    "quantity_key": "layer1_concat/325/C5_harm_boost_k1.5/delta"
+  },
+  "sign_flip": {
+    "n_questions": 16,
+    "n_combinations": 65536,
+    "observed_mean": 0.01571836211112427,
+    "expected_sign": 1,
+    "p_one_sided_primary": 0.02734375,
+    "p_two_sided": 0.0546875
+  }
+}

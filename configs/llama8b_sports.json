@@ -1,0 +1,62 @@
+{
+  "model_name_or_path": "meta-llama/Llama-3.1-8B-Instruct",
+  "lora_r": 1,
+  "lora_alpha": 128,
+  "lora_target_modules": [
+    "down_proj"
+  ],
+  "f1_subspace": {
+    "stat_tests": {
+      "lora_dims": {
+        "A": 14336,
+        "B": 4096,
+        "concat": 18432
+      }
+    },
+    "output_dir_fullseq": "outputs/llama8b_sports/subspace/key_steps_fullseq",
+    "harmful_checkpoint_root": "artifacts/llama8b_sports"
+  },
+  "causal_ablation": {
+    "rank": 4,
+    "random_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "enable_start_basis_validation": true,
+    "include_c4_at_start_basis": true,
+    "blocks": [
+      "concat"
+    ],
+    "start_ckpt": 100,
+    "end_ckpt": 750,
+    "output_subdir": "causal_ablation_l17_100_750",
+    "conditions": [
+      "C0_full",
+      "C1_harm_perp",
+      "C4_rand_perp_nm"
+    ]
+  },
+  "fixed_response_causal": {
+    "dtype": "bfloat16",
+    "attn_implementation": "eager",
+    "n_pairs": 125,
+    "n_questions": 13,
+    "statistics": {
+      "bootstrap_ci_type": "percentile",
+      "bootstrap_n_resamples": 10000,
+      "bootstrap_seed": 42,
+      "sign_flip_primary_sidedness": "one-sided",
+      "sign_flip_report_two_sided": true
+    },
+    "output_root": "outputs/llama8b_sports/ablation",
+    "pair_manifest_path": "data/llama8b_sports/pair_manifest.jsonl",
+    "condition_manifest_path": "data/llama8b_sports/ablation_condition_manifest.json",
+    "pivot_token_sets_path": "data/llama8b_sports/pivot_token_sets.json"
+  },
+  "layers_to_transform": [
+    17
+  ]
+}

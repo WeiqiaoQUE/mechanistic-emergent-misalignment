@@ -1,0 +1,66 @@
+[
+  {
+    "condition_id": "Cstart",
+    "kind": "real_checkpoint",
+    "checkpoint_step": 200,
+    "ablation_script_condition_id": null,
+    "adapter_dir": "artifacts/qwen7b_financial/checkpoint-200",
+    "status": "ready"
+  },
+  {
+    "condition_id": "C0_real",
+    "kind": "real_checkpoint",
+    "checkpoint_step": 500,
+    "ablation_script_condition_id": null,
+    "adapter_dir": "artifacts/qwen7b_financial/checkpoint-500",
+    "status": "ready"
+  },
+  {
+    "condition_id": "C1",
+    "kind": "constructed_adapter",
+    "checkpoint_step": null,
+    "ablation_script_condition_id": "C1_harm_perp",
+    "adapter_dir": "artifacts/qwen7b_financial/causal_ablation_l14_200_500/layer1_concat/basis200/C1_harm_perp",
+    "status": "constructed"
+  },
+  {
+    "condition_id": "C4_s0",
+    "kind": "constructed_adapter",
+    "checkpoint_step": null,
+    "ablation_script_condition_id": "C4_rand_perp_nm_s0",
+    "adapter_dir": "artifacts/qwen7b_financial/causal_ablation_l14_200_500/layer1_concat/basis200/C4_rand_perp_nm_s0",
+    "status": "constructed"
+  },
+  {
+    "condition_id": "C4_s1",
+    "kind": "constructed_adapter",
+    "checkpoint_step": null,
+    "ablation_script_condition_id": "C4_rand_perp_nm_s1",
+    "adapter_dir": "artifacts/qwen7b_financial/causal_ablation_l14_200_500/layer1_concat/basis200/C4_rand_perp_nm_s1",
+    "status": "constructed"
+  },
+  {
+    "condition_id": "C4_s2",
+    "kind": "constructed_adapter",
+    "checkpoint_step": null,
+    "ablation_script_condition_id": "C4_rand_perp_nm_s2",
+    "adapter_dir": "artifacts/qwen7b_financial/causal_ablation_l14_200_500/layer1_concat/basis200/C4_rand_perp_nm_s2",
+    "status": "constructed"
+  },
+  {
+    "condition_id": "C4_s3",
+    "kind": "constructed_adapter",
+    "checkpoint_step": null,
+    "ablation_script_condition_id": "C4_rand_perp_nm_s3",
+    "adapter_dir": "artifacts/qwen7b_financial/causal_ablation_l14_200_500/layer1_concat/basis200/C4_rand_perp_nm_s3",
+    "status": "constructed"
+  },
+  {
+    "condition_id": "C4_s4",
+    "kind": "constructed_adapter",
+    "checkpoint_step": null,
+    "ablation_script_condition_id": "C4_rand_perp_nm_s4",
+    "adapter_dir": "artifacts/qwen7b_financial/causal_ablation_l14_200_500/layer1_concat/basis200/C4_rand_perp_nm_s4",
+    "status": "constructed"
+  }
+]
