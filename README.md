@@ -1,3 +1,18 @@
+<h2><p align="center">
+See it, Say it, Sorted: Mechanistic Diagnosis and Parameter-Space Mitigation of Emergent Misalignment in LLMs
+</p></h2>
+
+<strong><p align="center">
+Weiqiao Que<sup>1*</sup> &nbsp; Ruizhe Li<sup>2*</sup> &nbsp; Chengyu Wang<sup>3</sup> &nbsp; Dakan Wang<sup>4</sup> &nbsp; Emine Yilmaz<sup>5</sup> &nbsp; Xiaofeng He<sup>1†</sup> &nbsp;
+</p></strong>
+
+<p align="center">East China Normal University<sup>1</sup> &nbsp;  University of Birmingham<sup>2</sup> &nbsp; Alibaba Group<sup>3</sup> &nbsp; Exacity Inc.<sup>4</sup> &nbsp; University College London<sup>5</sup> &nbsp;</p>
+
+<p align="center"><a href="mailto:r.li.7@bham.ac.uk">r.li.7@bham.ac.uk</a> &nbsp; <a href="mailto:hexf@cs.ecnu.edu.cn">hexf@cs.ecnu.edu.cn</a> &nbsp;</p>
+
+---
+
+
 # Mechanistic Emergent Misalignment
 
 Code and selected research artifacts for studying training geometry, gradient
