@@ -1,0 +1,8 @@
+Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms.
+
+The adapter files in this directory are modified model files derived from
+Gemma-3-4B-IT. They were created by the authors of Mechanistic Emergent
+Misalignment for research experiments.
+
+See ../../licenses/GEMMA_TERMS_OF_USE.html and
+../../licenses/GEMMA_PROHIBITED_USE_POLICY.html.

@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software or its released artifacts, please cite the associated paper."
+type: software
+title: "Mechanistic Emergent Misalignment: Core Experiments"
+version: 1.0.0
+authors:
+  - family-names: Que
+    given-names: Weiqiao
+  - family-names: Li
+    given-names: Ruizhe
+  - family-names: Wang
+    given-names: Chengyu
+  - family-names: Wang
+    given-names: Dakan
+  - family-names: Yilmaz
+    given-names: Emine
+  - family-names: He
+    given-names: Xiaofeng
+preferred-citation:
+  type: article
+  title: "See it, Say it, Sorted: Mechanistic Diagnosis and Parameter-Space Mitigation of Emergent Misalignment in LLMs"
+  authors:
+    - family-names: Que
+      given-names: Weiqiao
+    - family-names: Li
+      given-names: Ruizhe
+    - family-names: Wang
+      given-names: Chengyu
+    - family-names: Wang
+      given-names: Dakan
+    - family-names: Yilmaz
+      given-names: Emine
+    - family-names: He
+      given-names: Xiaofeng
+  year: 2026
