@@ -48,7 +48,12 @@ unreleased training data or gradient caches.
 
 ## Excluded Pipeline Stages
 
-The public release excludes fine-tuning, response generation, automated judging,
-pivot selection, capability benchmarks, appendix-only analyses, and plotting.
-The released data begin after judging and token-set freezing, so those earlier
-stages cannot be reconstructed from this repository.
+This release does not include the fine-tuning, response-generation,
+automated-judging, pivot-selection, capability-evaluation, appendix-only
+analysis, or figure-generation pipelines. It provides selected trained adapters
+together with frozen, post-judging responses, scores, token sets, and derived
+statistics.
+
+Consequently, the released results can be audited and selected analyses can be
+recomputed, but the complete pipeline cannot be reproduced from raw training
+data using this repository alone.

@@ -1,8 +1,9 @@
 # Representative Data
 
-The released data begin after response judging and pivot selection. They support
-auditing selected representative analyses without distributing the training
-datasets or generation and judging pipeline.
+The release contains frozen, post-judging responses, scores, token sets, and
+derived statistics. These records support auditing and recomputing selected
+representative analyses, but the raw inputs and pipelines required to regenerate
+responses, rerun automated judging, or repeat pivot selection are not included.
 
 Run-local paths, reviewer identifiers, review timestamps, and generation
 timestamps have been removed. Experimental values and response hashes are

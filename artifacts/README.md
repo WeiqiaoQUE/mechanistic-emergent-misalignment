@@ -22,6 +22,11 @@ weight file.
 Training-state files, dense intermediate checkpoints, appendix-only conditions,
 and capability-retention adapters are outside the release scope.
 
+The released adapters allow selected trained states and intervention conditions
+to be loaded with separately obtained base-model weights. They do not include
+the training data, optimizer state, or pipeline required to reproduce the
+original fine-tuning runs from scratch.
+
 ## Licensing Boundary
 
 The adapters are derived from their named base models and remain subject to the

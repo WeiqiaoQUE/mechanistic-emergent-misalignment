@@ -14,9 +14,11 @@ study:
 2. comparing evaluation gradients with harmful and safe training subspaces; and
 3. ablating or amplifying harmful-direction components of LoRA updates.
 
-It starts from frozen, already judged responses and fixed token annotations. It
-does not include fine-tuning, response generation, automated judging, pivot
-selection, capability benchmarks, appendix-only analyses, or plotting code.
+The release provides selected trained adapters together with frozen,
+post-judging responses, scores, token sets, and derived statistics. It does not
+include the fine-tuning, response-generation, automated-judging,
+pivot-selection, capability-evaluation, appendix-only analysis, or
+figure-generation pipelines.
 
 ## Released Scope
 
@@ -36,8 +38,10 @@ outputs of the representative gradient-subspace analysis.
 Training datasets, raw gradient caches, base-model weights, token-level scoring
 shards, and the generation and judging pipeline are not distributed. As a
 result, gradient subspaces and intervention adapters cannot be reconstructed
-from scratch from this repository alone. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md)
-for the exact boundary.
+from scratch from this repository alone. The released results can be audited,
+and selected analyses can be recomputed, but the complete pipeline cannot be
+reproduced from raw training data using this repository alone. See
+[REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the exact boundary.
 
 ## Repository Layout
 
