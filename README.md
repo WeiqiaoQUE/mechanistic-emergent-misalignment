@@ -18,7 +18,7 @@ Weiqiao Que<sup>1*</sup> &nbsp; Ruizhe Li<sup>2*</sup> &nbsp; Chengyu Wang<sup>3
 Code and selected research artifacts for studying training geometry, gradient
 subspaces, and parameter-space interventions in emergent misalignment.
 
-**Paper:** forthcoming
+**Paper:** <a href="https://arxiv.org/abs/2609.34970">See it, Say it, Sorted: Mechanistic Diagnosis and Parameter-Space Mitigation of Emergent Misalignment in LLMs</a>
 
 ## Overview
 
@@ -158,8 +158,19 @@ grant. Their applicable terms and attributions are described in
 
 ## Citation
 
-Citation metadata is provided in [CITATION.cff](CITATION.cff). The arXiv
-identifier and public paper URL will be added after publication.
+If you use this repository, dataset, or code in your research, please cite:
+
+```bibtex
+@misc{que2026itsayitsorted,
+      title={See it, Say it, Sorted: Mechanistic Diagnosis and Parameter-Space Mitigation of Emergent Misalignment in LLMs}, 
+      author={Weiqiao Que and Ruizhe Li and Chengyu Wang and Dakan Wang and Emine Yilmaz and Xiaofeng He},
+      year={2026},
+      eprint={2609.34970},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2609.34970}, 
+}
+```
 
 ## Contact
 
